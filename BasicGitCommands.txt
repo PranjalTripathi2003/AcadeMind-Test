@@ -43,3 +43,5 @@ Then a double-enter.
 git remote add origin https://github.com/PranjalTripathi2003/test.git
 git branch -M main
 git push -u origin main
+
+Note: Origin is just the shortcut for the whole link, just so that we dont have to type in the URL all the time, such as when we push the commited files. eg. git push origin, pushes in the respository whose shorcut if origin.
