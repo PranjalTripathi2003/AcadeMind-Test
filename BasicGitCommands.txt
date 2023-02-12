@@ -27,6 +27,19 @@ NOTE : i) To set the username - git config --global user.name "Your Username".
 
 11. "git rm "filename"" - Removes the specified file and automaticaly adds the deletion to the staging area
 
-12. git remote rm origin - HELPS US TO RELOGIN SAVES US FROM A LOT OF FKERY!
+12. git remote rm origin - HELPS US TO REMOVE THE ORIGIN MAIN BRANCH SO WE HAVE TO ADD IT AGAIN, SAVES US FROM A LOT OF FKERY!
 
 13. "git reset --hard HEAD~n" - Resets the commit to previous version, where n is a number,i.e, the commit number.
+
+14. Inorder for us to RELOGIN, we have to remove our token in this way:
+
+git credential reject => ENTER
+host=github.com => ENTER
+protocol=https => ENTER
+Then a double-enter.
+
+15. Pushing into an existing repository from CLI:
+
+git remote add origin https://github.com/PranjalTripathi2003/test.git
+git branch -M main
+git push -u origin main
