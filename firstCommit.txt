@@ -1,1 +1,16 @@
-This is some random text.
+I am going to write about all the basic git commands stepwise:
+
+1. git init - To initialise the folder/working directory.
+2. git status - To check for the tracked and untracked files.
+3. git add - To add a file to the staging area to be commited to the repository.
+4. "git commit -m" - Add a snapshot of the code, i.e, the changes made to the file and tracks the subsequent changes.
+5. "git config --global --edit" - To edit the name and email in the config file
+
+NOTE : i) To set the username - git config --global user.name "Your Username".
+       ii) To set the email - git config --global user.email "Your email".   
+
+6. git log - Gives us an overview of all our commits inside out master branch or the branch we are currently on.
+
+7. To stage the commits and to track the untracked files there are two ways to do this:
+      i) git add - Better to use when the number of files are small.
+      ii)git add . - Tracks all the untracked files and changes made to a files and puts them on the staging area. Then we run "git commit - m" to commit the files.
