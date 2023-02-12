@@ -16,5 +16,13 @@ NOTE : i) To set the username - git config --global user.name "Your Username".
       ii)git add . - Tracks all the untracked files and changes made to a files and puts them on the staging area. Then we run "git commit - m" to commit the files.
 
 8. git branch - Lists out all the branches. Use git branch -m "Name" to rename a branch.
-      i) "git branch -b "name of branch" - Creates a new branch
+      
+      i) "git branch -D "name of branch" - Deletes the specified branch.
+
 9. "git checkout "name of the branch" - Switches the branch 
+      i) "git checkout -b "name of branch" - Creates a new branch
+      ii) "git checkout -- ." - Resets the branch (or indivual file if mentioned instead of ".") to the latest commit if there are any unstaged files.
+
+10. "git reset filename" - Unstages the file
+
+11. git remote rm origin - HELPS US TO RELOGIN SAVES US FROM A LOT OF FKERY!
