@@ -14,3 +14,5 @@ NOTE : i) To set the username - git config --global user.name "Your Username".
 7. To stage the commits and to track the untracked files there are two ways to do this:
       i) git add - Better to use when the number of files are small.
       ii)git add . - Tracks all the untracked files and changes made to a files and puts them on the staging area. Then we run "git commit - m" to commit the files.
+
+8. git branch - Lists out all the branches. Use git branch -m "Name" to rename a branch.
