@@ -52,4 +52,6 @@ Note: Origin is just the shortcut for the whole link, just so that we dont have 
 
 17. If we are a collaborator to a private project, then we can Add content to it, Change the code and add commits.
 
-18. "git pull" - To update the local collaborator's repository.
+18. "git pull" - To update the local collaborator's repository. To update and implement the latest changes from github locally on git.
+
+19 . Pull Request - Means to request the owner of the intial repository to pull the changes that the person who forked the repository from the initial owner and to implement these changes on the project on GitHub.
