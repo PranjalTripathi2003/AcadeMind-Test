@@ -48,4 +48,8 @@ Note: Origin is just the shortcut for the whole link, just so that we dont have 
 
 16. "git clone "repository link" - Clones the remote repository
         i) adding a "." clones the repository without adding any folders. 
-        extra line
+        We can clone into the main repository with the cloned repository if credentials are given. Adding content to it, Changing the code, Adding commits, all of those actions to a given file requires credentials.
+
+17. If we are a collaborator to a private project, then we can Add content to it, Change the code and add commits.
+
+18. "git pull" - To update the local collaborator's repository.
